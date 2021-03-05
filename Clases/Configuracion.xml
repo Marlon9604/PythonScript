@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <path>DeployExe\\DB\\</path>
+  <!--<path>Deploy\\</path>-->
+
+  <db name="ColombianaComercio" filtro="ColombianaComercio">
+    <!--Caracteres de reemplazo-->
+    <caracteres>
+      <!--<caracter>dbo.</caracter>-->
+      <caracter>.StoredProcedure</caracter>
+      <caracter>.StoreProcedure</caracter>
+      <caracter>.table</caracter>
+      <caracter>.Table</caracter>
+      <caracter>.UserDefinedFunction</caracter>
+      <caracter>.UserDefinedTableType</caracter>
+      <caracter>.View</caracter>
+      <caracter>.Triggers</caracter>
+    </caracteres>
+    <carpetas>
+      <carpeta id="0" name="00.SCHEMA">
+        <prefijo>Schema</prefijo>
+      </carpeta>
+      <carpeta id="5" name="05.STORED_PROCEDURES" order="1">
+        <prefijo>dbo.PR_</prefijo>
+        <prefijo>dbo.PA_</prefijo>
+        <prefijo>dbo.pa_</prefijo>
+        <prefijo>dbo.WRITELOG</prefijo>
+        <prefijo>dbo.SP_</prefijo>
+        <prefijo>SP_</prefijo>
+      </carpeta>
+      <carpeta id="2" name="02.SCRIPTS" order="1">
+        <prefijo>SCRIPT_</prefijo>
+        <prefijo>scripts</prefijo>
+        <prefijo>dbo.ALTER_</prefijo>
+        <prefijo>ACTUALIZAR_</prefijo>
+        <prefijo>ACTUALIZACION</prefijo>
+      </carpeta>
+      <carpeta id="0" name="01.01.TABLES_KEYS" >
+        <sufijo>_UNIQUE_KEYS.sql</sufijo>
+        <sufijo>_UNIQUE_KEY.sql</sufijo>
+      </carpeta>
+      <carpeta id="3" name="01.03.VIEWS" order="1">
+        <prefijo>dbo.VW_</prefijo>
+      </carpeta>
+      <carpeta id="1" name="01.02.TABLES" order="1">
+        <prefijo>dbo.TR_</prefijo>
+      </carpeta>
+      <carpeta id="4" name="01.04.FUNCTIONS" order="1">
+        <prefijo>dbo.FN_</prefijo>
+      </carpeta>
+      <carpeta id="7" name="01.01.TYPES" order="1">
+        <prefijo>dbo.TYPE_</prefijo>
+      </carpeta>
+      <carpeta id="8" name="07.TRIGGERS" order="1">
+        <prefijo>dbo.TG_</prefijo>
+      </carpeta>
+      <carpeta id="6" name="06.INSERT" order="1">
+        <prefijo>INSERT_</prefijo>
+        <prefijo>INSERCION</prefijo>
+        <prefijo>UPDATE_</prefijo>
+      </carpeta>
+    </carpetas>
+  </db>
+</root>

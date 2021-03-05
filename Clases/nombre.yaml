@@ -1,0 +1,12 @@
+# example
+
+scripts:
+    - file: {id: 1, name: ./Script\dbo.ALTER_EJEMPLO.sql}
+    - file: {id: 3, name: ./Script\INSERT_EJEMPLO.sql}
+    - file: {id: 4, name: ./Script\dbo.SP_EJEMPLO.sql}
+    - file: {id: 5, name: ./Script\dbo.TG_EJEMPLO.sql}
+    - file: {id: 6, name: ./Script\dbo.TYPE_EJEMPLO.sql}
+    - file: {id: 7, name: ./Script\dbo.PA_PROCEDIMIENTO_NOMENCLATURA.sql}
+    - file: {id: 8, name: ./Script\dbo.PR_PROCEDIMIENTO_PRUEBA.sql}
+
+
