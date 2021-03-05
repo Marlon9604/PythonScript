@@ -4,3 +4,4 @@ pip install colored
 pip install cprint
 pip install cprint
 pip install ruamel.yaml
+pip install termcolor
