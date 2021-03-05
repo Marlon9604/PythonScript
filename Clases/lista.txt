@@ -1,3 +1,6 @@
-1
-2
-3
+pip install colorama
+pip install colored
+pip install colored
+pip install cprint
+pip install cprint
+pip install ruamel.yaml
